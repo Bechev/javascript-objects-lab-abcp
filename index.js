@@ -18,6 +18,6 @@ function deleteFromObjectByKey(object,key){
 }
 
 destructivelyDeleteFromObjectByKey(object, key){
-  delete ojbject[key];
+  delete object[key];
   return object;
 }
