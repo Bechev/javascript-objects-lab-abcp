@@ -5,3 +5,7 @@ var tempObj= {[key]: value}
   var newObj =  Object.assign({}, object, tempObj)
   return newObj;
 }
+
+function destructivelyUpdateObjectWithKeyAndValue(object,key,value){
+
+}
